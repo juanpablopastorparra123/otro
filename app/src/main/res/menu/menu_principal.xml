@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/configuracion"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="@string/menu_configuracion"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/usuario"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="@string/menu_usuario"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_acercade"
+        android:title="@string/acerca_de"
+        app:showAsAction="never"/>
+
+</menu>
